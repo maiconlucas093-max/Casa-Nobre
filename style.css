@@ -189,7 +189,7 @@ img {
       rgba(245, 240, 232, 0.88) 38%,
       rgba(245, 240, 232, 0.12) 75%
     ),
-    url("hero-casa-nobre.jpg") center 55% / cover no-repeat;
+    url("hero-casa-nobre-1.jpg") center 55% / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
