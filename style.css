@@ -553,7 +553,10 @@ img {
 .logo {
   width: 82px;
 }
-
+.brand-slogan {
+  font-size: 9px;
+  letter-spacing: 0.3px;
+}
   .menu-toggle {
     display: flex;
     margin-left: auto;
