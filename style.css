@@ -543,10 +543,9 @@ img {
     padding: 0 17px;
   }
 
-  .logo-name {
-    font-size: 13px;
-    letter-spacing: 2px;
-  }
+.logo {
+  width: 82px;
+}
 
   .menu-toggle {
     display: flex;
