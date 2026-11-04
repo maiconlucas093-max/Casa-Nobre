@@ -178,18 +178,25 @@ img {
 
 /* HERO */
 
+
 .hero {
   min-height: 570px;
   padding: 90px max(7%, calc((100% - 1240px) / 2));
   background:
-    linear-gradient(90deg, rgba(245, 240, 232, 0.98) 0%, rgba(245, 240, 232, 0.88) 48%, rgba(245, 240, 232, 0.22) 100%),
-    linear-gradient(135deg, #e5d7c4, #bca184);
+    linear-gradient(
+      90deg,
+      rgba(245, 240, 232, 0.97) 0%,
+      rgba(245, 240, 232, 0.88) 38%,
+      rgba(245, 240, 232, 0.12) 75%
+    ),
+    url("hero-casa-nobre.jpg") center 55% / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   overflow: hidden;
 }
+
 
 .hero-content {
   max-width: 590px;
