@@ -93,29 +93,29 @@ img {
 .logo {
   display: flex;
   align-items: center;
-  gap: 11px;
+  justify-content: center;
   flex-shrink: 0;
+  width: 145px;
 }
 
-.logo-icon {
-  width: 39px;
-  height: 39px;
-  border: 1px solid var(--wood);
-  display: grid;
-  place-items: center;
-  color: var(--wood-dark);
-  font-family: var(--serif);
-  font-size: 17px;
+.logo-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
-.logo-name,
+.logo:hover .logo-image {
+  transform: scale(1.03);
+}
+
 .footer-logo {
   color: var(--brown);
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 3px;
 }
-
 .navigation {
   display: flex;
   align-items: center;
